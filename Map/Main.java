@@ -83,6 +83,6 @@ public class Main {
 
         AVLMap<String, Integer> avlMap = new AVLMap<>();
         double time3 = testMap(avlMap, filename);
-        System.out.println("Linked List Map: " + time3 + " s");
+        System.out.println("AVL Map: " + time3 + " s");
     }
 }
